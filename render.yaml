@@ -1,12 +1,14 @@
 databases:
   - name: mysite
     databaseName: mysite
+    plan: free
     user: mysite
 
 services:
   - type: web
     name: mysite
     env: ruby
+    plan: free
     buildCommand: './bin/render-build.sh'
     startCommand: 'bundle exec puma -C config/puma.rb'
     envVars:
