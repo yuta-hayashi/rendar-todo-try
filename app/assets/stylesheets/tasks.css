@@ -1,0 +1,15 @@
+body {
+  background-color: #f6f8fa;
+}
+.task_card {
+  background: #ffffff;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  border: 1px solid #d0d7de;
+  margin: 0.4rem;
+  color: #525252;
+}
+
+#tasks > a {
+  text-decoration: none;
+}
